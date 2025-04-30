@@ -1,0 +1,53 @@
+.dashboard {
+  height: 100vh;
+  background: linear-gradient(135deg, #121417, #1f232a);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+.dashboard-card {
+  background: #262b33;
+  border-radius: 16px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+  padding: 24px;
+  text-align: center;
+  width: 90%;
+  max-width: 700px;
+}
+
+/* ── Water Pump Status Indicator ─────────────────────────── */
+.water-status {
+  margin: 16px auto;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  display: inline-block;
+  transition: background 0.3s, color 0.3s;
+}
+.water-status.on {
+  background: #065f46;  /* dark teal */
+  color: #d1fae5;       /* pale mint */
+}
+.water-status.off {
+  background: #4b5563;  /* slate gray */
+  color: #e5e7eb;       /* light gray */
+}
+
+/* ── Gauges Container ─────────────────────────────────────── */
+.gauges {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.timestamp {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  opacity: 0.6;
+}
