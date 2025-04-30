@@ -96,5 +96,5 @@ npm start
 ## 👨‍💻 Author
 
 **Your Name**  
-- **Member 1 IT number (Leader) - IT21913860 ()**  
+- **Member 1 IT number (Leader) - IT21913860 (Nathasha W.L.R)**  
 - **Member 2 IT Number - IT21480218 (Deheragoda D.M.L.M.)**  
